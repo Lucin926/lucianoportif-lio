@@ -1,6 +1,6 @@
 /* ========================================
    MODERN PORTFOLIO - JAVASCRIPT
-   Kelvin Costa Maues
+   Luciano Nogueira
    ======================================== */
 
 // ===== PARTICLES.JS CONFIGURATION =====
@@ -15,7 +15,7 @@ if (typeof particlesJS !== 'undefined') {
                 }
             },
             color: {
-                value: '#6366f1'
+                value: '#ffffff'
             },
             shape: {
                 type: 'circle',
@@ -155,11 +155,8 @@ window.addEventListener('scroll', highlightNavigation);
 // ===== TYPING EFFECT =====
 const typingText = document.querySelector('.typing-text');
 const texts = [
-    'Desenvolvedor Full Stack',
-    'Estudante de Computação',
-    'Entusiasta de IA',
-    'Especialista em Visão Computacional',
-    'Criador de Soluções Inovadoras'
+    'Desenvolvedor de Software | Back end',
+    'Estudante de Computação'
 ];
 
 let textIndex = 0;
@@ -445,8 +442,8 @@ window.addEventListener('scroll', debouncedHighlightNav);
 
 // ===== CONSOLE MESSAGE =====
 console.log('%c 👨‍💻 Olá! Seja bem-vindo ao meu portfólio! ', 'background: #6366f1; color: white; font-size: 16px; padding: 10px; border-radius: 5px;');
-console.log('%c Desenvolvido por Kelvin Costa Maues ', 'background: #ec4899; color: white; font-size: 14px; padding: 8px; border-radius: 5px;');
-console.log('%c GitHub: https://github.com/kelvinmxz ', 'color: #6366f1; font-size: 12px; padding: 5px;');
+console.log('%c Desenvolvido por Luciano da Silva Nogueira ', 'background: #ec4899; color: white; font-size: 14px; padding: 8px; border-radius: 5px;');
+console.log('%c GitHub: https://github.com/Lucin926 ', 'color: #6366f1; font-size: 12px; padding: 5px;');
 
 // ===== ADD DYNAMIC STYLES FOR CURSOR AND PROGRESS BAR =====
 const dynamicStyles = document.createElement('style');
